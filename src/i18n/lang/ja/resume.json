@@ -1,0 +1,144 @@
+{
+    "name": "ディン・ズイ・トゥ (TuDD)",
+    "jobTitle": "フルスタック開発者",
+    "profileImage": "/images/avatar.jpg",
+    "about": "ソフトウェアアプリケーションとウェブサイトの開発経験を持つ熱心な開発者。ウェブアプリケーションとモバイルアプリケーションに長期的な関心があります。",
+    "personalDetails": {
+        "dateOfBirth": "1996-11-14",
+        "email": "tudd.dev@gmail.com",
+        "phone": "+84 963 636 837",
+        "address": "Ha Noi, Viet Nam"
+    },
+    "socialNetworks": [
+        {
+            "name": "Facebook",
+            "icon": "fab fa-facebook",
+            "link": "https://www.facebook.com/chitt1996"
+        },
+        {
+            "name": "Instagram",
+            "icon": "fab fa-instagram",
+            "link": "https://www.instagram.com/duy.tu__"
+        },
+        {
+            "name": "Github",
+            "icon": "fab fa-github",
+            "link": "https://github.com/TuDD96"
+        }
+    ],
+    "skills": [
+        {
+            "title": "フロントエンド",
+            "icon": "fas fa-laptop-code",
+            "skills": [
+                "HTML/CSS/JavaScript",
+                "Vue/React"
+            ]
+        },
+        {
+            "title": "バックエンド",
+            "icon": "fas fa-server",
+            "skills": [
+                "PHP/Laravel",
+                "Node Js",
+                "SQL"
+            ]
+        },
+        {
+            "title": "デブオプス",
+            "icon": "fas fa-cogs",
+            "skills": [
+                "AWS",
+                "Docker",
+                "Jenkins",
+                "Sonar Qube"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "title": "バックエンド開発者",
+            "company": "リッケイソフト",
+            "period": "2022年5月 - 現在",
+            "projects": [
+                {
+                    "name": "Eコマース",
+                    "icon": "fas fa-shopping-cart",
+                    "description": "EC Orange core ver 4xを使用したウェブサイトのカスタマイズ",
+                    "lang": "Laravel/VueJS"
+                },
+                {
+                    "name": "Eコマースウェブサイト",
+                    "icon": "fas fa-shopping-cart",
+                    "description": "EC-Orange core ver 2xを使用したウェブサイトの保守",
+                    "lang": "PHP"
+                }
+            ]
+        },
+        {
+            "title": "フルスタック開発者",
+            "company": "ファビJSC",
+            "period": "2020年3月",
+            "projects": [
+                {
+                    "name": "法律書籍レンタルプロジェクト",
+                    "icon": "fas fa-book",
+                    "description": "法律関連の書籍をレンタル・閲覧できるウェブサイト",
+                    "lang": "PHP/Laravel/Vue JS"
+                },
+                {
+                    "name": "学習管理システム",
+                    "icon": "fas fa-graduation-cap",
+                    "description": "クラス管理、学習計画の作成、ビデオ講義による学習",
+                    "lang": "Flutter/Node JS/Firebase"
+                },
+                {
+                    "name": "デーティングアプリ",
+                    "icon": "fas fa-video",
+                    "description": "アプリ内課金、Agoraを使用したビデオ通話、Google Cloud Visionによる不適切コンテンツ検出",
+                    "lang": "PHP/Laravel/React Native"
+                },
+                {
+                    "name": "Eコマース",
+                    "icon": "fas fa-shopping-cart",
+                    "description": "yahoo、wowma、rakuten、amazonへの同時商品アップロード機能付きウェブサイト",
+                    "lang": "PHP/Laravel"
+                },
+                {
+                    "name": "学習管理システム",
+                    "icon": "fas fa-graduation-cap",
+                    "description": "ビデオ講義を通じたスケジュール管理、学習計画の作成。各ビデオには複数の演習問題があり、チャットルームで学生同士の議論・交流が可能",
+                    "lang": "PHP/Laravel/React Native"
+                }
+            ]
+        },
+        {
+            "title": "バックエンド開発者",
+            "company": "サン*インクベトナム",
+            "period": "2019年9月 - 2020年3月",
+            "description": "サン*インクベトナムでPHPとLaravelのオープンエデュケーション研修コースに参加",
+            "projects": []
+        }
+    ],
+    "education": [
+        {
+            "degree": "情報技術",
+            "institution": "ハノイ商工大学",
+            "period": "2016年 - 2020年"
+        }
+    ],
+    "additionalInfo": [
+        {
+            "icon": "fab fa-github",
+            "text": "GitHubを流暢に使用可能"
+        },
+        {
+            "icon": "fas fa-cog",
+            "text": "Linuxサーバー（EC2、Ubuntu等）へのプロジェクトの設定とデプロイが可能"
+        },
+        {
+            "icon": "fas fa-code",
+            "text": "クリーンコードの作成が可能"
+        }
+    ]
+}

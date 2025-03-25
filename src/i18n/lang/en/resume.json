@@ -1,0 +1,144 @@
+{
+    "name": "Đinh Duy Tự (TuDD)",
+    "jobTitle": "Full-stack Developer",
+    "profileImage": "/images/avatar.jpg",
+    "about": "Determined hard worker with experience in developing software applications and websites. Long-term interests include web applications and mobile applications.",
+    "personalDetails": {
+        "dateOfBirth": "1996-11-14",
+        "email": "tudd.dev@gmail.com",
+        "phone": "+84 963 636 837",
+        "address": "Ha Noi, Viet Nam"
+    },
+    "socialNetworks": [
+        {
+            "name": "Facebook",
+            "icon": "fab fa-facebook",
+            "link": "https://www.facebook.com/chitt1996"
+        },
+        {
+            "name": "Instagram",
+            "icon": "fab fa-instagram",
+            "link": "https://www.instagram.com/duy.tu__"
+        },
+        {
+            "name": "Github",
+            "icon": "fab fa-github",
+            "link": "https://github.com/DuyTu96"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Front End",
+            "icon": "fas fa-laptop-code",
+            "skills": [
+                "HTML/CSS/JavaScript",
+                "Vue/React"
+            ]
+        },
+        {
+            "title": "Back End",
+            "icon": "fas fa-server",
+            "skills": [
+                "PHP/Laravel",
+                "Node Js",
+                "SQL"
+            ]
+        },
+        {
+            "title": "DEV OPS",
+            "icon": "fas fa-cogs",
+            "skills": [
+                "AWS",
+                "Docker",
+                "Jenkins",
+                "Sonar Qube"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "title": "Backend Developer",
+            "company": "Rikkeisoft",
+            "period": "May, 2022 - Present",
+            "projects": [
+                {
+                    "name": "E-Commerce",
+                    "icon": "fas fa-shopping-cart",
+                    "description": "Customize website with EC Orange core ver 4x",
+                    "lang": "Laravel/VueJS"
+                },
+                {
+                    "name": "Website E-commerce",
+                    "icon": "fas fa-shopping-cart",
+                    "description": "Maintain website with EC-Orange core ver 2x",
+                    "lang": "PHP"
+                }
+            ]
+        },
+        {
+            "title": "Fullstack Developer",
+            "company": "Fabbi JSC",
+            "period": "Mar, 2020",
+            "projects": [
+                {
+                    "name": "Maintain law book rental project",
+                    "icon": "fas fa-book",
+                    "description": "Website for renting books and reading books about law.",
+                    "lang": "PHP/Laravel/Vue JS"
+                },
+                {
+                    "name": "Learning management system",
+                    "icon": "fas fa-graduation-cap",
+                    "description": "Manage class, make study plans and learn it via video lectures.",
+                    "lang": "Flutter/Node JS/Firebase"
+                },
+                {
+                    "name": "Dating app",
+                    "icon": "fas fa-video",
+                    "description": "pay with in-app purchase, Video call with Agora, Detect explicit content with Google Cloud Vision.",
+                    "lang": "PHP/Laravel/React Native"
+                },
+                {
+                    "name": "E-Commerce",
+                    "icon": "fas fa-shopping-cart",
+                    "description": "the website uploads products to yahoo, wowma, rakuten, amazon at the same time instead of each EC upload.",
+                    "lang": "PHP/Laravel"
+                },
+                {
+                    "name": "Learning management system",
+                    "icon": "fas fa-graduation-cap",
+                    "description": "The application allows users to schedule, make study plans through watching video lectures. Each video will have multiple exercises to help students practice. Moreover, there is a chat room where students can discuss and exchange.",
+                    "lang": "PHP/Laravel/React Native"
+                }
+            ]
+        },
+        {
+            "title": "Backend Developer",
+            "company": "Sun* Inc Viet Nam",
+            "period": "Sep 2019 - Mar 2020",
+            "description": "join Open Education training course on PHP and Laravel at Sun* Inc Viet Nam",
+            "projects": []
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Information Technology",
+            "institution": "Hanoi University of Business and Technology",
+            "period": "2016 - 2020"
+        }
+    ],
+    "additionalInfo": [
+        {
+            "icon": "fab fa-github",
+            "text": "Can use github fluently"
+        },
+        {
+            "icon": "fas fa-cog",
+            "text": "Can config and deploy project to linux server (EC2, Ubuntu...)"
+        },
+        {
+            "icon": "fas fa-code",
+            "text": "Can build clean code"
+        }
+    ]
+}
