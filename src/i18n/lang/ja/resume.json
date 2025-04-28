@@ -2,12 +2,12 @@
     "name": "ディン・ズイ・トゥ (TuDD)",
     "jobTitle": "フルスタック開発者",
     "profileImage": "/images/avatar.jpg",
-    "about": "ソフトウェアアプリケーションとウェブサイトの開発経験を持つ熱心な開発者。ウェブアプリケーションとモバイルアプリケーションに長期的な関心があります。",
+    "about": "ソフトウェアアプリケーションやウェブサイトの開発経験を持つ、粘り強く熱心なエンジニアです。長期的な関心分野はウェブアプリケーションとモバイルアプリケーションです。",
     "personalDetails": {
         "dateOfBirth": "1996-11-14",
         "email": "tudd.dev@gmail.com",
         "phone": "+84 963 636 837",
-        "address": "Ha Noi, Viet Nam"
+        "address": "ベトナム・ハノイ"
     },
     "socialNetworks": [
         {
@@ -23,7 +23,7 @@
         {
             "name": "Github",
             "icon": "fab fa-github",
-            "link": "https://github.com/TuDD96"
+            "link": "https://github.com/DuyTu96"
         }
     ],
     "skills": [
@@ -32,7 +32,7 @@
             "icon": "fas fa-laptop-code",
             "skills": [
                 "HTML/CSS/JavaScript",
-                "Vue/React"
+                "Vue/React/React Native"
             ]
         },
         {
@@ -41,7 +41,7 @@
             "skills": [
                 "PHP/Laravel",
                 "Node Js",
-                "SQL"
+                "SQL/MySQL/MongoDB"
             ]
         },
         {
@@ -50,7 +50,6 @@
             "skills": [
                 "AWS",
                 "Docker",
-                "Jenkins",
                 "Sonar Qube"
             ]
         }
@@ -62,16 +61,18 @@
             "period": "2022年5月 - 現在",
             "projects": [
                 {
-                    "name": "Eコマース",
+                    "name": "Eコマースウェブサイト",
                     "icon": "fas fa-shopping-cart",
-                    "description": "EC Orange core ver 4xを使用したウェブサイトのカスタマイズ",
-                    "lang": "Laravel/VueJS"
+                    "description": "EC-Orangeコアバージョン2.xをベースにした衣料品販売用ECサイトの保守・機能追加。商品カスタマイズ、出荷予定日計算、SBPSや.comなどの決済連携、システム構成要素（PHPバージョン、AWS、Postfix等）のアップグレード、OSのCentOSからRed Hatへの移行、認証プロセスの強化などを担当。",
+                    "role": "チームリーダー",
+                    "lang": "PHP / Laravel / Node.js / MySQL / GraphQL / AWS"
                 },
                 {
                     "name": "Eコマースウェブサイト",
                     "icon": "fas fa-shopping-cart",
-                    "description": "EC-Orange core ver 2xを使用したウェブサイトの保守",
-                    "lang": "PHP"
+                    "description": "EC-Orangeコアバージョン4.xを用いて新規に開発した学生向け衣料品販売ECサイト。ショップ登録・商品アップロード機能、学生がサイト上で衣料品を閲覧・購入できる仕組みを実装。",
+                    "role": "チームリーダー",
+                    "lang": "PHP / Laravel / Vue.js / MySQL / AWS"
                 }
             ]
         },
@@ -81,34 +82,39 @@
             "period": "2020年3月",
             "projects": [
                 {
-                    "name": "法律書籍レンタルプロジェクト",
+                    "name": "法律書籍レンタルシステムの保守・機能追加",
                     "icon": "fas fa-book",
-                    "description": "法律関連の書籍をレンタル・閲覧できるウェブサイト",
-                    "lang": "PHP/Laravel/Vue JS"
+                    "description": "オンライン法律書籍の閲覧・レンタルシステムの保守・機能追加を担当。書籍アップロード、レンタル、オンライン閲覧（ブックマークや重要箇所のハイライト対応）、パフォーマンス最適化、著作権保護のためのセキュリティ強化、UI/UX改善などを実施。",
+                    "role": "開発者",
+                    "lang": "PHP / Laravel / MySQL / Vue.js"
                 },
                 {
                     "name": "学習管理システム",
                     "icon": "fas fa-graduation-cap",
-                    "description": "クラス管理、学習計画の作成、ビデオ講義による学習",
-                    "lang": "Flutter/Node JS/Firebase"
+                    "description": "学習管理システムの開発・保守を担当。クラス・コース管理、ビデオ講義視聴、テスト受験、講師とのチャット、スケジュールされた試験への参加、月次・年次の学習成績管理などの機能を実装。",
+                    "role": "開発者",
+                    "lang": "Flutter / Node.js / Firebase / Google Cloud"
                 },
                 {
                     "name": "デーティングアプリ",
                     "icon": "fas fa-video",
-                    "description": "アプリ内課金、Agoraを使用したビデオ通話、Google Cloud Visionによる不適切コンテンツ検出",
-                    "lang": "PHP/Laravel/React Native"
+                    "description": "位置情報によるマッチング、チャット、ビデオ通話（Agora利用）、チャージ、アカウントアップグレード、アプリ内課金による寄付、出金、Google Cloud Visionによる不適切コンテンツ検出など多彩な機能を備えたオンラインマッチングアプリを開発。安全でシームレスなユーザー体験を提供。",
+                    "role": "開発者",
+                    "lang": "PHP / Laravel / MySQL / React Native / AWS"
                 },
                 {
                     "name": "Eコマース",
                     "icon": "fas fa-shopping-cart",
-                    "description": "yahoo、wowma、rakuten、amazonへの同時商品アップロード機能付きウェブサイト",
-                    "lang": "PHP/Laravel"
+                    "description": "衣料品向けECサイトを開発。サイトでの購入に加え、Yahoo、Wowma、Rakuten、Amazonなど複数のECプラットフォームへの商品同期・出品を実現し、販路拡大に貢献。",
+                    "role": "開発者",
+                    "lang": "PHP / Laravel / MySQL"
                 },
                 {
                     "name": "学習管理システム",
                     "icon": "fas fa-graduation-cap",
-                    "description": "ビデオ講義を通じたスケジュール管理、学習計画の作成。各ビデオには複数の演習問題があり、チャットルームで学生同士の議論・交流が可能",
-                    "lang": "PHP/Laravel/React Native"
+                    "description": "ユーザーがビデオ講義を通じて学習計画を立てられるアプリ。各ビデオには複数の練習問題があり、MathJaxによるグラフや数式表示に対応。学習結果を月次・年次で記録・分析し、チャットルームで学生同士や講師との質疑応答・意見交換が可能。",
+                    "role": "チームリーダー",
+                    "lang": "PHP / Laravel / MySQL / React Native / AWS"
                 }
             ]
         },
@@ -116,29 +122,33 @@
             "title": "バックエンド開発者",
             "company": "サン*インクベトナム",
             "period": "2019年9月 - 2020年3月",
-            "description": "サン*インクベトナムでPHPとLaravelのオープンエデュケーション研修コースに参加",
+            "description": "Sun* Inc Viet NamでPHPとLaravelのオープンエデュケーション研修コースに参加",
             "projects": []
         }
     ],
     "education": [
         {
-            "degree": "情報技術",
-            "institution": "ハノイ商工大学",
+            "degree": "情報技術学士",
+            "institution": "ハノイビジネス技術大学",
             "period": "2016年 - 2020年"
         }
     ],
     "additionalInfo": [
         {
             "icon": "fab fa-github",
-            "text": "GitHubを流暢に使用可能"
+            "text": "JLPT N3取得済み"
         },
         {
-            "icon": "fas fa-cog",
-            "text": "Linuxサーバー（EC2、Ubuntu等）へのプロジェクトの設定とデプロイが可能"
+            "icon": "fab fa-github",
+            "text": "AWSの業務経験あり"
         },
         {
-            "icon": "fas fa-code",
-            "text": "クリーンコードの作成が可能"
+            "icon": "fab fa-github",
+            "text": "Docker、Linux、Nginx、Apacheに精通"
+        },
+        {
+            "icon": "fab fa-github",
+            "text": "ユニットテスト・自動テストの知識あり"
         }
     ]
 }

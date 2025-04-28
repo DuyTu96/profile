@@ -10,7 +10,7 @@
         <h2 class="h1 mt-2">{{ name }}</h2>
         <p>{{ jobTitle }}</p>
         <div class="d-print-none">
-          <a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="cv.pdf" target="_blank">
+          <a class="btn btn-light text-dark shadow-sm mt-1 me-1" :href="pdfUrl" target="_blank">
             {{ t('download') }}
           </a>
         </div>
@@ -29,8 +29,13 @@ export default defineComponent({
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
+
+const pdfUrl = computed(() => {
+  return locale.value === 'ja' ? 'cv-ja.pdf' : 'cv-en.pdf'
+})
 
 defineProps<{
   name: string

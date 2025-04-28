@@ -16,10 +16,11 @@
           <div v-for="(project, indexProject) in exp.projects" :key="indexProject">
             <div class="mb-2">
               <i class="fas fa-hand-point-right"></i>
-              <i>{{ project.name }}</i>
+              <i> {{ project.name }}</i>
               <div class="ps-3">
-                <span> Description: {{ project.description }} </span>
-                <p>Framework: {{ project.lang }}</p>
+                <label> <b>Description:</b> {{ project.description }} </label>
+                <label> <b>Role:</b> {{ project.role }} </label>
+                <p><b>Framework:</b> {{ project.lang }}</p>
               </div>
             </div>
           </div>
@@ -46,6 +47,7 @@ interface Project {
   name: string
   description: string
   lang: string
+  role?: string
 }
 
 interface Experience {
