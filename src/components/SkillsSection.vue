@@ -1,10 +1,10 @@
 <template>
-  <div class="skills-section px-3 px-lg-4">
-    <h2 class="h3 mb-3">{{ t('professionalSkills') }}</h2>
-    <div class="row">
-      <div class="col-md-4" v-for="(skill, index) in skills" :key="index">
+  <div class="skills-section mt-3 px-3 px-lg-2">
+    <h2 class="h5 mb-1">{{ t('professionalSkills') }}</h2>
+    <div class="skills-list">
+      <div class="skill-group" v-for="(skill, index) in skills" :key="index">
         <div class="mb-2">
-          <i class="fas fa-hand-point-right"></i> <span>{{ skill.title }}</span>
+          <span>{{ skill.title }}</span>
           <ul>
             <li v-for="(skillItem, indexSkill) in skill.skills" :key="indexSkill">
               <span>{{ skillItem }}</span>
@@ -38,3 +38,12 @@ defineProps<{
   skills: Skill[]
 }>()
 </script>
+
+<style scoped>
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+</style>

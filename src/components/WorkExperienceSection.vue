@@ -1,6 +1,6 @@
 <template>
-  <div class="work-experience-section px-3 px-lg-4">
-    <h2 class="h3 mb-4">{{ t('workExperience') }}</h2>
+  <div class="work-experience-section px-3 px-lg-3">
+    <h2 class="h3 mb-1 pt-3">{{ t('workExperience') }}</h2>
     <div class="timeline">
       <div
         class="timeline-card timeline-card-primary card shadow-sm"
@@ -13,10 +13,18 @@
             <span class="text-muted h6">at {{ exp.company }}</span>
           </div>
           <div class="text-muted text-small mb-2">{{ exp.period }}</div>
-          <div v-for="(project, indexProject) in exp.projects" :key="indexProject">
+          <div v-if="exp.projects.length == 0">{{ exp?.description }}</div>
+          <div
+            v-else
+            v-for="(project, indexProject) in exp.projects.slice().reverse()"
+            :key="indexProject"
+          >
             <div class="mb-2">
-              <i class="fas fa-hand-point-right"></i>
-              <i> {{ project.name }}</i>
+              <!-- <i class="fas fa-hand-point-right"></i> -->
+              <b>
+                <i>- {{ project.name }}</i>
+              </b>
+              <span v-if="project.period"> - {{ project.period }}</span>
               <div class="ps-3">
                 <label> <b>Description:</b> {{ project.description }} </label>
                 <label> <b>Role:</b> {{ project.role }} </label>
@@ -48,6 +56,7 @@ interface Project {
   description: string
   lang: string
   role?: string
+  period?: string
 }
 
 interface Experience {
@@ -55,6 +64,7 @@ interface Experience {
   company: string
   period: string
   projects: Project[]
+  description?: string
 }
 
 defineProps<{

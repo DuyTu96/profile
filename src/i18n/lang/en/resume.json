@@ -56,65 +56,72 @@
     ],
     "experience": [
         {
-            "title": "Backend Developer",
+            "title": "Fullstack Developer",
             "company": "Rikkeisoft",
-            "period": "May, 2022 - Present",
+            "period": "May 2022 - Present",
             "projects": [
-                {
-                    "name": "E-commerce Website",
-                    "icon": "fas fa-shopping-cart",
-                    "description": "Maintain and upgrade an e-commerce website based on EC-Orange core version 2.x for clothing sales as per customer requirements. Tasks include product customization, calculating estimated shipping dates, integrating payment methods like SBPS and .com, upgrading system components (PHP version, AWS, Postfix, etc.), migrating the operating system from CentOS to Red Hat, and enhancing authentication processes.",
-                    "role": "Team Leader",
-                    "lang": "PHP / Laravel / Node.js / MySQL / GraphQL / AWS"
-                },
                 {
                     "name": "E-Commerce Website",
                     "icon": "fas fa-shopping-cart",
                     "description": "Developed a new e-commerce website using EC-Orange core version 4.x, tailored for selling clothing to students in a school. The platform allows shops to register and upload products, enabling students to browse and purchase clothing items directly on the website.",
                     "role": "Team Leader",
-                    "lang": "PHP / Laravel / Vue.js / MySQL / AWS"
+                    "lang": "PHP / Laravel / Vue.js / MySQL / AWS",
+                    "period": "6 months"
+                },
+                {
+                    "name": "E-commerce Website",
+                    "icon": "fas fa-shopping-cart",
+                    "description": "Maintain and upgrade an e-commerce website based on EC-Orange core version 2.x for clothing sales as per customer requirements. Tasks include product customization, calculating estimated shipping dates, integrating payment methods like SBPS and .com, upgrading system components (PHP version, AWS, Postfix, etc.), migrating the operating system from CentOS to Red Hat, and enhancing authentication processes.",
+                    "role": "Team Leader",
+                    "lang": "PHP / Laravel / Node.js / MySQL / GraphQL / AWS",
+                    "period": "2,5 years"
                 }
             ]
         },
         {
             "title": "Fullstack Developer",
             "company": "Fabbi JSC",
-            "period": "Mar, 2020",
+            "period": "Mar 2020 - May 2022",
             "projects": [
                 {
                     "name": "Maintain and Upgrade Law Book Rental System",
                     "icon": "fas fa-book",
                     "description": "Responsible for maintaining and upgrading an online law book reading and rental system. Key features include uploading books, renting books, online reading with support for bookmarking pages and highlighting important lines. Also optimized performance for faster book loading and improved reading experience, enhanced security to protect copyrighted content, and improved UI/UX for a smoother rental and reading process.",
                     "role": "Developer",
-                    "lang": "PHP / Laravel / MySQL / Vue.js"
+                    "lang": "PHP / Laravel / MySQL / Vue.js",
+                    "period": "6 months"
                 },
                 {
                     "name": "Learning Management System",
                     "icon": "fas fa-graduation-cap",
                     "description": "Responsible for developing and maintaining a learning management system. Features include managing classes and courses, watching video lectures, taking tests, chatting with instructors, participating in scheduled exams, and tracking study results with monthly and yearly statistics.",
                     "role": "Developer",
-                    "lang": "Flutter / Node.js / Firebase / Google Cloud"
+                    "lang": "Flutter / Node.js / Firebase / Google Cloud",
+                    "period": "3 months"
                 },
                 {
                     "name": "Dating App",
                     "icon": "fas fa-video",
                     "description": "Developed an online dating and matching app with various features including location-based matching, chat, video calls (using Agora), top-up, account upgrades, donations via in-app purchases, withdrawal, and explicit content detection through Google Cloud Vision. The app offers a seamless and secure user experience for online dating.",
                     "role": "Developer",
-                    "lang": "PHP / Laravel / MySQL / React Native / AWS"
+                    "lang": "PHP / Laravel / MySQL / React Native / AWS",
+                    "period": "3 months"
                 },
                 {
                     "name": "E-Commerce",
                     "icon": "fas fa-shopping-cart",
                     "description": "Developed an e-commerce website for clothing. In addition to purchasing on the website, products are synchronized and uploaded to various e-commerce platforms such as Yahoo, Wowma, Rakuten, and Amazon, enabling wider product visibility and sales.",
                     "role": "Developer",
-                    "lang": "PHP / Laravel / MySQL"
+                    "lang": "PHP / Laravel / MySQL",
+                    "period": "4 months"
                 },
                 {
                     "name": "Learning Management System",
                     "icon": "fas fa-graduation-cap",
                     "description": "The application enables users to schedule and plan their study through video lectures. Each video includes multiple exercises for practice, with MathJax integration for displaying charts and mathematical formulas. It records results and analyzes learning progress by month and year. Additionally, the app features a chat room where students can discuss, exchange ideas, and directly ask questions to instructors.",
                     "role": "Team Leader",
-                    "lang": "PHP / Laravel / MySQL / React Native / AWS"
+                    "lang": "PHP / Laravel / MySQL / React Native / AWS",
+                    "period": "6 months"
                 }
             ]
         },
@@ -122,17 +129,15 @@
             "title": "Backend Developer",
             "company": "Sun* Inc Viet Nam",
             "period": "Sep 2019 - Mar 2020",
-            "description": "join Open Education training course on PHP and Laravel at Sun* Inc Viet Nam",
+            "description": "Conducted training sessions on workflow processes and internal projects",
             "projects": []
         }
     ],
-    "education": [
-        {
-            "degree": "Bachelor of Science in Information Technology",
-            "institution": "Hanoi University of Business and Technology",
-            "period": "2016 - 2020"
-        }
-    ],
+    "education": {
+        "degree": "Bachelor of Science in Information Technology",
+        "institution": "Hanoi University of Business and Technology",
+        "period": "2016 - 2020"
+    },
     "additionalInfo": [
         {
             "icon": "fab fa-github",

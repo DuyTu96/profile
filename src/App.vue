@@ -6,46 +6,34 @@
   />
   <div class="page-content">
     <div class="container">
-      <div class="cover shadow-lg bg-white">
-        <ProfileHeader
-          :name="resume.name"
-          :job-title="resume.jobTitle"
-          :profile-image="resume.profileImage"
-        />
-        <AboutSection
-          :about="resume.about"
-          :age="calculateAge"
-          :email="resume.personalDetails.email"
-          :phone="resume.personalDetails.phone"
-          :address="resume.personalDetails.address"
-          :dateOfBirth="resume.personalDetails.dateOfBirth"
-        />
-        <hr class="d-print-none" />
+      <div class="row">
+        <!-- Left sidebar -->
+        <div class="col-lg-4 left-sidebar">
+          <div class="cover-left-sidebar shadow-lg bg-white h-100 mb-4">
+            <ProfileHeader
+              :name="resume.name"
+              :job-title="resume.jobTitle"
+              :profile-image="resume.profileImage"
+            />
+            <AboutSection
+              :about="resume.about"
+              :age="calculateAge"
+              :email="resume.personalDetails.email"
+              :phone="resume.personalDetails.phone"
+              :address="resume.personalDetails.address"
+              :dateOfBirth="resume.personalDetails.dateOfBirth"
+            />
+            <SkillsSection :skills="resume.skills" />
 
-        <SkillsSection :skills="resume.skills" />
-        <hr class="d-print-none" />
-
-        <WorkExperienceSection :experience="resume.experience" />
-        <hr class="d-print-none" />
-
-        <div class="page-break"></div>
-        <EducationSection :education="resume.education" />
-        <hr class="d-print-none" />
-
-        <div class="page-break"></div>
-        <div class="education-section px-3 px-lg-4 pb-4">
-          <h2 class="h3 mb-4">{{ t('additionalInformation') }}</h2>
-          <div class="timeline">
-            <div class="timeline-card timeline-card-info card shadow-sm">
-              <div class="card-body">
-                <div v-for="(info, index) in resume.additionalInfo" :key="index">
-                  <i class="fas fa-hand-point-right"></i> {{ info.text }}
-                </div>
-              </div>
-            </div>
+            <AdditionalInfoSection :additionalInfo="resume.additionalInfo" />
           </div>
         </div>
-        <hr class="d-print-none" />
+        <!-- Main content area -->
+        <div class="col-lg-8 right-component">
+          <div class="cover shadow-lg bg-white">
+            <WorkExperienceSection :experience="resume.experience" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -61,7 +49,7 @@ import ProfileHeader from '@/components/ProfileHeader.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
-import EducationSection from '@/components/EducationSection.vue'
+import AdditionalInfoSection from '@/components/AdditionalInfoSection.vue'
 
 interface Resume {
   personalDetails: { dateOfBirth: string; email: string; phone: string; address: string }
@@ -77,11 +65,11 @@ interface Resume {
     period: string
     projects: Array<{ name: string; description: string; lang: string }>
   }>
-  education: Array<{ degree: string; institution: string; period: string }>
+  education: { degree: string; institution: string; period: string }
   additionalInfo: Array<{ text: string }>
 }
 
-const { locale, t } = useI18n()
+const { locale } = useI18n()
 
 // Initialize locale from localStorage or default to 'en'
 locale.value = localStorage.getItem('locale') || 'en'
@@ -108,3 +96,20 @@ const calculateAge = computed(() => {
   return age
 })
 </script>
+
+<style scoped>
+.cover {
+  height: 100%;
+}
+.left-sidebar {
+  /* margin-top: 8px; */
+  padding-right: 0;
+}
+
+.right-component {
+  padding-left: 0;
+}
+.page-content {
+  margin-bottom: 5rem;
+}
+</style>
