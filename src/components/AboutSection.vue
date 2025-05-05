@@ -23,6 +23,10 @@
         <span class="info-label">{{ t('address') }}:</span>
         <span class="info-value">{{ address }}</span>
       </div>
+      <div class="info-row">
+        <span class="info-label">{{ t('education') }}:</span>
+        <span class="info-value">{{ education }}</span>
+      </div>
     </div>
   </div>
 </template>
@@ -47,6 +51,7 @@ defineProps<{
   email: string
   phone: string
   address: string
+  education: string
 }>()
 </script>
 

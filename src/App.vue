@@ -22,6 +22,7 @@
               :phone="resume.personalDetails.phone"
               :address="resume.personalDetails.address"
               :dateOfBirth="resume.personalDetails.dateOfBirth"
+              :education="resume.education.institution"
             />
             <SkillsSection :skills="resume.skills" />
 
